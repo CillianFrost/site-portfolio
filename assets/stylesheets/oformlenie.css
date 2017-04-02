@@ -1,0 +1,485 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Пользовательские стили
+  ========================================
+*/
+
+body {
+  color:#626365;
+  font:300 14px/22px Helvetica Neue, Roboto, Open Sans, Helvetica, Arial, sans-serif;
+  min-width:1200px;
+}
+
+.top-background {
+	height:200px;
+	background:url(../images/backgrounds/top-background.png) repeat-x;
+	
+}
+
+.bottom-background {
+	background:#f0f3f5;
+	outline:1px red solid;
+}
+
+a {
+	color:#d1013f;
+}
+
+/*
+  ========================================
+  Основной заголовок
+  ========================================
+*/
+	
+.over {
+	height:200px;
+	width:940px;
+	margin:0 auto;
+	background:#eef1f4;
+	overflow:hidden;
+	position:relative;
+}
+
+.logo {
+	margin:5px;
+	position:absolute;
+	overflow:hidden;
+	width:70px;
+	height:65px;
+	top:20px;
+	left:20px;
+}
+	
+.underlogo {
+	position:absolute;
+	overflow:hidden;
+	margin:3px;
+	top:90px;
+	left:20px;
+}
+
+.language {
+	position:absolute;
+	margin:5px;
+	overflow:hidden;
+	top:20px;
+	left:170px;
+	font-style:italic;
+}
+
+.header-nav-first {
+	position:absolute;
+	margin:5px;
+	overflow:hidden;
+	top:15px;
+	left:270px;
+}
+	
+.header-nav-second {
+	position:absolute;
+	margin:5px;
+	overflow:hidden;
+	top:15px;
+	left:400px;
+}
+
+.header-nav-links {
+	position:relative;
+	padding:5px;
+}
+
+.facebook {
+	position:absolute;
+	overflow:hidden;
+	margin:5px;
+	top:20px;
+	right:20px;
+}
+
+#blue-link-facebook {
+	color:blue;
+}
+
+.search {
+	position:absolute;
+	overflow:hidden;                   
+	bottom:25px;
+	right:0;
+}
+
+.search-form {
+	overflow:hidden;
+	border:none;
+	margin-top:2px;
+	height:22px;
+    vertical-align:middle;
+}
+
+.search-button {
+	overflow:hidden;
+	width:22px;
+    height:23px;
+    border:none;
+    background:url(../images/search-button.png) no-repeat 50% 50%;
+	vertical-align:middle;
+}
+
+/*
+  ========================================
+  Описания
+  ========================================
+*/
+
+.about-background {
+	height:430px;
+	background:#eff3f6
+}
+.about {
+	position:relative;
+	overflow:hidden;
+	width:940px;
+	margin:0 auto;
+}
+
+.articles {
+	position:relative;
+	overflow:hidden;
+	float:left;
+	height:420px;
+	width:225px;
+	padding:5px;
+}
+.images-articles {
+	position:relative;
+	padding:10px;
+}
+
+.titles {
+	position:relative;
+	overflow:hidden;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:22px;
+	font-style:bold;
+}
+
+.articles-text {
+	position:relative;
+	overflow:hidden;
+	padding:3px;
+}
+
+.scroll-button {
+	position:absolute;
+	overflow:hidden;
+	bottom:15px;
+	left:320px;
+}
+
+/*
+  ========================================
+  Слайдер
+  ========================================
+*/
+
+.scroll-menu {
+	position:relative;
+	overflow:hidden;
+	height:670px;
+	width:1200px;
+	margin:0 auto;
+}
+
+.scroll-nav {
+	position:relative;
+	overflow:hidden;
+	height:70px;
+	width:940px;
+	margin:0 auto;
+}
+
+.scroll-links {
+	float:left;
+}
+
+.scroll-image {
+	width:940px;
+	height:370px;
+	margin:0 auto;
+	background:#fff;
+	overflow:hidden;
+	position:relative;	
+}
+
+.slider {
+	position:relative;
+	width:2820px;
+	left:-940px;
+}
+
+.sc-images {
+	width:940px;
+	height:370px;
+	float:left;
+	position:relative;
+}
+
+#frame1 {
+	background:url(../images/scroll-block/scroll-image.jpg);
+}
+
+#frame2 {
+	background:url(../images/scroll-block/scroll-image2.png);
+}
+
+#frame3 {
+	background:url(../images/scroll-block/scroll-image3.jpg);
+}
+
+.left-button {
+	position:absolute;
+	overflow:hidden;
+	top:220px;
+	left:50px;
+	width:65px;
+	height:95px;
+	cursor:pointer;
+	background:url(../images/scroll-block/left-button.png);
+}
+
+.right-button {
+	position:absolute;
+	overflow:hidden;
+	top:220px;
+	right:50px;
+	width:66px;
+	height:95px;
+	cursor:pointer;
+	background:url(../images/scroll-block/right-button.png);
+}
+
+.under-scroll {
+	overflow:hidden;
+	width:940px;
+	margin:0 auto;
+	background:url(../images/backgrounds/under-scroll-background.png) repeat-x;
+}
+
+.under-scroll-blocks {
+	overflow:hidden;
+	position:relative;
+	float:left;
+	width:225px;
+	height:190px;
+}
+
+.under-scroll-text-blocks {
+	overflow:hidden;
+	width:210px;
+	height:170px;
+	margin:15px;
+}
+
+.text-under-scroll {
+	overflow:hidden;
+	margin:0 auto;
+}
+
+/*
+  ========================================
+  Двухколоночный контейнер
+  ========================================
+*/
+
+.last-container {
+	overflow:hidden;
+	width:940px;
+	margin:0 auto;
+}
+
+.feedback {
+	overflow:hidden;
+	float:left;
+	width:200px;
+	margin-top:40px;
+	margin-right:25px;
+}
+
+.feedback-nav {
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.feedback-list {
+	overflow:hidden;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:url(../images/aside-background.png) repeat-x;
+}
+
+.feedback-links {
+	overflow:hidden;
+	padding:3px;
+}
+
+.buy-section {
+	overflow:hidden;
+	margin-top:25px;
+	margin-bottom:20px;
+}
+
+.buy-content {
+	outline:1px red solid;
+	overflow:hidden;
+}
+
+
+.ceo-words {
+	overflow:hidden;
+	padding-left:100px;
+	padding-top:40px;
+	padding-bottom:40px;
+	padding-right:5px;
+	position:relative;
+}
+
+.ceo-pic {
+	overflow:hidden;
+	margin-right:20px;
+	position:relative;
+	float:left;
+}
+
+.ceo-words-main {
+	overflow:hidden;
+	position:relative;
+	font-size:18px;
+}
+
+.ceo-words-name {
+	font-style:italic;
+}
+
+/*
+  ========================================
+  Подвал
+  ========================================
+*/
+
+.under {
+	overflow:hidden;
+	height:400px;
+	width:940px;
+	position:relative;
+	margin:0 auto;
+}
+
+.first-under {
+	width:300px;
+}
+
+.logo-under {
+	overflow:hidden;
+	position:absolute;
+	top:50px;
+	height:35px;
+}
+
+.feedback-under {
+	overflow:hidden;
+	position:absolute;
+	top:45px;
+	left:50px;
+	font-size:12px;
+}
+
+.social {
+	overflow:hidden;
+	position:absolute;
+	top:50px;
+	left:280px;
+}
+
+.social:hover::after {
+    content:attr(data-title);
+    position:absolute;
+    left:30%;top:20%;
+    z-index:1;
+    background:rgba(255,255,230,0.9);
+    font-size:12px;
+    padding:5px 10px;
+    border:1px solid #333;
+}
+
+.right-text {
+	overflow:hidden;
+	position:absolute;
+	right:10px;
+	top:50px;
+	width:300px;
+	height:70px;
+	font-size:11px;
+	line-height:1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
